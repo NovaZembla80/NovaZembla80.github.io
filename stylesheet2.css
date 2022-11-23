@@ -1,0 +1,100 @@
+[class*="col-"] {
+width: 100%;  
+}  
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+        float: left;  
+                              
+    }
+
+
+.col-1 {width: 16.66%; height: 700px;}    
+.col-2 {width: 75%; height: 700px;}
+}
+
+.col-1 {background-color:rgb(143, 133, 120) ;float: left;}
+
+
+body {
+font-family:'Roboto', sans-serif; 
+color: azure;
+margin: 0;
+padding: 0;
+
+}
+
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: azure;
+    font-size: 90px;
+    text-align: end;                    
+}
+
+
+
+
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-image: url("watertoren.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    float: left;
+    
+}
+
+
+.div1 {   
+    background-color: rgb(153, 151, 134);    
+    height: 100%;
+    width: 50%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    float: left;
+    text-align: left;
+    }
+
+    .pic1 {
+        float: right;        
+        width: 50%;
+        height: 25%;                
+    }  
+    
+    
+.div2 {
+    background-color: rgb(153, 151, 134);    
+    height: 100%;
+    width: 50%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    float: right;
+    text-align: left;         
+        }
+
+        .pic2{
+            float: right;            
+            width: 50%;
+            height: 25%;
+                   
+        }    
+
+
+
+        
+
+footer {
+    
+        width: 100%;
+        height: 150px;
+        float: left;
+        background-color: rgb(68, 66, 63);
+        text-align: center; 
+        clear: both;
+                                                 
+        }     
+
+        
